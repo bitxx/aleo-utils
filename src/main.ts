@@ -1,11 +1,16 @@
-import { Account } from '@aleohq/sdk';
+import {Account} from './model/account'
 
 const account = new Account();
+console.log('privateKey: ', account.privateKey)
+console.log('viewKey: ', account.viewKey)
+console.log('address: ', account.address)
 
-// Individual keys can be then be accessed through the following methods
-const privateKey = account.privateKey();
-const viewKey = account.viewKey();
-const address = account.address();
-console.log('privateKey: ', privateKey.to_string())
-console.log('viewKey: ', viewKey.to_string())
-console.log('address: ', address.to_string())
+try {
+    const account2 = new Account(account.privateKey);
+    console.log('privateKey2: ', account2.privateKey)
+    console.log('viewKey2: ', account2.viewKey)
+    console.log('address2: ', account2.address)
+} catch (e) {
+    console.log(e)
+}
+
