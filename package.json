@@ -1,5 +1,5 @@
 {
-  "name": "aleoutil",
+  "name": "aleo-utils",
   "version": "1.0.0",
   "description": "aleo util",
   "type": "module",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bitxx/aleoutil.git"
+    "url": "git+https://github.com/bitxx/aleo-utils.git"
   },
   "keywords": [
     "aleo"
@@ -18,9 +18,9 @@
   "author": "Jason",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bitxx/aleoutil/issues"
+    "url": "https://github.com/bitxx/aleo-utils/issues"
   },
-  "homepage": "https://github.com/bitxx/aleoutil#readme",
+  "homepage": "https://github.com/bitxx/aleo-utils#readme",
   "devDependencies": {
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
